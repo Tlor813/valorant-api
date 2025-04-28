@@ -4,7 +4,7 @@ import '../styles/global.css';
 
 // data source
 // replace temporary JSON placeholder API
-const source = 'https://jsonplaceholder.typicode.com/users';
+const source = 'https://valorant-api.com/v1/agents';
 // fetch the data
 const res = await fetch(source); 
 // store retreived data
@@ -35,17 +35,14 @@ const data = await res.json();
 		  
 				<!-- Your API Data -->
 				{
-					data.map( item =>
+					data.data.map( item =>
 					<li class="card-item">
-						<a href="#">
-							<figure class="card">
-							<img src="https://assets.codepen.io/16425/image-placeholder.png" alt="Placeholder">
-							<figcaption class="caption">
-								<h3 class="caption-title">{item.name}</h3>
-								<p>{item.company.catchPhrase}</p>
-							</figcaption>
-							</figure>
-						</a>
+						
+						<img src= {item.displayIcon} alt="">
+						{ item.displayName }
+						{ item.description }
+
+
 					</li> 
 					)
 				}
