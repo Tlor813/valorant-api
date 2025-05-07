@@ -1,10 +1,60 @@
 /* Normalize CSS */
 
+/* Font - Fontshare*/
+@import url('https://api.fontshare.com/v2/css?f[]=bespoke-serif@400&f[]=tanker@400&f[]=teko@500&display=swap" rel="stylesheet');
+
+
+
+
+
+
 /* Header */
 .masthead {
     text-align: center;
     border-bottom: 1px solid hsl(0, 0%, 90%);
 }
+
+.site-title {
+    text-align: center;
+    color: #ffffff;
+    text-shadow:
+      0 0 5px #ffffff,
+      0 0 10px #ffffff,
+      0 0 20px #ffffff,
+      0 0 40px #ffffff;
+    font-family: 'Tanker', sans-serif;
+    font-size: 10em;
+}
+
+
+
+.name {
+    text-align: center;
+    color:yellow;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+
+
+}
+
+
+
+
+p {
+    font-family: 'Bespoke Serif', serif;
+    color: white;
+}
+
+
+body {
+background: linear-gradient(to right, hsl(-0deg, 100% ,45%), hsl(300deg, 3%, 6%));
+
+}
+
+
+
+
+
 
 /* Header */
 img {
