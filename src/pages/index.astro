@@ -21,7 +21,7 @@ const data = await res.json();
 		<!-- Normalize CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-		<title>Retreive and and display external API data with Astro</title>
+		<title>Valorant Agents</title>
 	</head>
 	<body>
 		
@@ -38,6 +38,7 @@ const data = await res.json();
 					data.data.map( item =>
 					<li class="card-item">
 						
+						<img class="icon" src="kingdom.webp" alt="">
 						<img src= {item.displayIcon} alt="">
 						<h1 class="name">{ item.displayName }</h1>
 						<p>{ item.description }</p>

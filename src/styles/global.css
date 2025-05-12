@@ -91,6 +91,14 @@ text-decoration: none;
 
 }
 
+.icon {
+    transform: scale(.2);
+    margin: 0;
+    position: relative;
+    padding: 0;
+    /* top: 10px;
+    right: 800px; */
+}
 
 
 .card-item:hover { 
