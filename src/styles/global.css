@@ -64,10 +64,12 @@ img {
     height: auto;
   }
     
+
 .cards {
 margin: 0;
 padding: 0;
 list-style-type: none;
+border: .2 rem white ;
 }
 
 .cards a {
@@ -111,6 +113,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 .card {
     display: grid;
+    
 }
 
 .card img,
