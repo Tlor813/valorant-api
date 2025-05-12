@@ -19,9 +19,7 @@
     color: #ffffff;
     text-shadow:
       0 0 5px #ffffff,
-      0 0 10px #ffffff,
-      0 0 20px #ffffff,
-      0 0 40px #ffffff;
+      0 0 10px #ffffff;
     font-family: 'Tanker', sans-serif;
     font-size: 10em;
 }
@@ -31,8 +29,11 @@
 .name {
     text-align: center;
     color:yellow;
+    text-shadow:
+      0 0 5px yellow;
     font-family: 'Bespoke Stencil', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
+    margin: 0;
 
 
 }
@@ -50,9 +51,10 @@ p {
 
 body {
 background: linear-gradient(to right, hsl(-0deg, 100% ,45%), hsl(300deg, 3%, 6%));
-
+background-image: url('valorant.jpeg');
+  background-size: cover;
+  background-position: center;
 }
-
 
 
 
@@ -83,7 +85,7 @@ text-decoration: none;
 
 .card-item {
 
-    background-color: black;
+    background-color: rgb(21, 21, 29);
     border: 5em;
 
 }
@@ -91,12 +93,31 @@ text-decoration: none;
 
 
 .card-item:hover { 
-     background-image: radial-gradient( circle farthest-corner at 50.3% 55.8%,  rgba(239,0,0,1) 0.8%, rgba(93,17,17,1) 100.2% ); ;
-    border-color: white;
+     background: linear-gradient(-45deg, #ffe600, #000000, #642020, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
     border: 5em;
      transform: scale(1.05); 
   transition: transform 0.3s ease;
+  box-shadow: rgb(247, 247, 247) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    
+    
+}
+
+    
+
 
 
 
