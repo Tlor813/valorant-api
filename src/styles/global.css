@@ -2,7 +2,7 @@
 
 /* Font - Fontshare*/
 @import url('https://api.fontshare.com/v2/css?f[]=bespoke-serif@400&f[]=tanker@400&f[]=teko@500&display=swap" rel="stylesheet');
-
+@import url("https://api.fontshare.com/v2/css?f[]=ranade@300&f[]=excon@500&f[]=bespoke-stencil@700&display=swap");
 
 
 
@@ -11,7 +11,7 @@
 /* Header */
 .masthead {
     text-align: center;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
+    
 }
 
 .site-title {
@@ -31,8 +31,8 @@
 .name {
     text-align: center;
     color:yellow;
-    font-family: 'Teko', sans-serif;
-    font-size: 2em;
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 3em;
 
 
 }
@@ -43,6 +43,8 @@
 p {
     font-family: 'Bespoke Serif', serif;
     color: white;
+    text-align: center;
+    padding: 1em;
 }
 
 
@@ -60,26 +62,46 @@ background: linear-gradient(to right, hsl(-0deg, 100% ,45%), hsl(300deg, 3%, 6%)
 img {
     display: block;
     border: 0;
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin: 5em 1em 1em 7em;
   }
     
 
 .cards {
 margin: 0;
-padding: 0;
+padding: 2em;
 list-style-type: none;
-border: .2 rem white ;
+
 }
 
 .cards a {
 display: block;
-margin-bottom: 1em;
+margin-bottom: 5em;
 text-decoration: none;
 }
 
+.card-item {
+
+    background-color: black;
+    border: 5em;
+
+}
+
+
+
+.card-item:hover { 
+     background-image: radial-gradient( circle farthest-corner at 50.3% 55.8%,  rgba(239,0,0,1) 0.8%, rgba(93,17,17,1) 100.2% ); ;
+    border-color: white;
+    border: 5em;
+     transform: scale(1.05); 
+  transition: transform 0.3s ease;
+}
+
+
+
 .caption {
-padding: 1em;
+padding: 2em;
 background: hsla(246, 40%, 30%, 0.6);
 color: white;
 font-size: 1.2em;
