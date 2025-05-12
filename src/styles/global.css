@@ -51,7 +51,7 @@ p {
 
 body {
 background: linear-gradient(to right, hsl(-0deg, 100% ,45%), hsl(300deg, 3%, 6%));
-/* background-image: url('valorant.jpeg'); */
+background-image: url(images/valorant.jpeg);
   background-size: cover;
   background-position: center;
 }
