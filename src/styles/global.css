@@ -3,7 +3,7 @@
 /* Font - Fontshare*/
 @import url('https://api.fontshare.com/v2/css?f[]=bespoke-serif@400&f[]=tanker@400&f[]=teko@500&display=swap" rel="stylesheet');
 @import url("https://api.fontshare.com/v2/css?f[]=ranade@300&f[]=excon@500&f[]=bespoke-stencil@700&display=swap");
-
+@import url('https://wallpaper.forfun.com/fetch/91/919d37023938c4538b44c7ef5268186d.jpeg');
 
 
 
@@ -51,7 +51,7 @@ p {
 
 body {
 background: linear-gradient(to right, hsl(-0deg, 100% ,45%), hsl(300deg, 3%, 6%));
-background-image: url('valorant.jpeg');
+/* background-image: url('valorant.jpeg'); */
   background-size: cover;
   background-position: center;
 }
